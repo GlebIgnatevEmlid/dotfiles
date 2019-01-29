@@ -13,8 +13,11 @@
     ff = only
     conflictstyle = diff3
 [core]
+    editor = vim
     excludesfile = ~/.gitignore
 [color]
     ui = auto
 [gpg]
     program = gpg2
+[rebase]
+	autosquash = true
