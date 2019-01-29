@@ -16,3 +16,6 @@
 [submodule "utils/git-subrepo"]
 	path = utils/git-subrepo
 	url = https://github.com/ingydotnet/git-subrepo.git
+[submodule "zsh/spaceship-prompt"]
+	path = zsh/spaceship-prompt
+	url = git@github.com:denysdovhan/spaceship-prompt.git
