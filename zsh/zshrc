@@ -28,6 +28,7 @@ plugins=(
     zsh-autosuggestions
     history-search-multi-word
     pip
+    zsh-syntax-highlighting
 )
 
 source $ZSH/oh-my-zsh.sh
