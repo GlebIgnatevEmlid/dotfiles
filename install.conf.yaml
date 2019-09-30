@@ -22,3 +22,5 @@
     ~/.oh-my-zsh/custom/plugins/zsh-syntax-highlighting: zsh/zsh-syntax-highlighting
     ~/.oh-my-zsh/custom/themes/spaceship.zsh-theme: zsh/spaceship-prompt/spaceship.zsh-theme
 
+- shell:
+    - vim +PluginInstall +qall
