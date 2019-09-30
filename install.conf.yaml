@@ -1,5 +1,9 @@
 - clean: ['~']
 
+- shell:
+    - [mkdir -p ~/.local/bin, Make dir for binaries]
+    - [git submodule update --init --recursive, Installing submodules]
+
 - link:
     ~/.dotfiles: ''
     ~/.tmux.conf: tmux/tmux.conf
@@ -18,5 +22,3 @@
     ~/.oh-my-zsh/custom/plugins/zsh-syntax-highlighting: zsh/zsh-syntax-highlighting
     ~/.oh-my-zsh/custom/themes/spaceship.zsh-theme: zsh/spaceship-prompt/spaceship.zsh-theme
 
-- shell:
-  - [git submodule update --init --recursive, Installing submodules]
