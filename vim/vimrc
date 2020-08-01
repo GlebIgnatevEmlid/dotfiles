@@ -7,13 +7,18 @@ call vundle#rc()
 Plugin 'scrooloose/nerdtree'
 Plugin 'tpope/vim-fugitive'
 Plugin 'bling/vim-airline'
+Plugin 'terryma/vim-multiple-cursors'
 Plugin 'kien/ctrlp.vim'
 Plugin 'henrik/vim-indexed-search'
-"Plugin 'lyuts/vim-rtags'
+Plugin 'lyuts/vim-rtags'
 Plugin 'kopischke/vim-fetch'
 Plugin 'tmux-plugins/vim-tmux'
 Plugin 'gnattishness/cscope_maps'
+Plugin 'rhysd/vim-grammarous'
+Plugin 'ycm-core/YouCompleteMe'
+Plugin 'junegunn/fzf'
 Plugin 'rust-lang/rust.vim'
+Plugin 'fatih/vim-go'
 
 call vundle#end()
 filetype plugin indent on
@@ -56,6 +61,9 @@ set expandtab
 syntax on
 set relativenumber
 set hlsearch
+
+" spell check
+set spelllang=en
 
 filetype indent on
 
